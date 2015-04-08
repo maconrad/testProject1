@@ -3,6 +3,6 @@ app:
     type:     annotation
 
 contact:
-    path:	/contact2
+    path:	/contact
     defaults:	{ _controller: AppBundle:Main:contact }
 
