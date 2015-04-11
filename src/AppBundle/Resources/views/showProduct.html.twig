@@ -1,0 +1,10 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    {{ dump(product) }}
+    <h2>{{ product.name }}</h2>
+    <p>{{ product.price }}</p>
+    <p>{{ product.description }}</p>
+{% endblock %}
+
+
